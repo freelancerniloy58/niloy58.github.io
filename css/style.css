@@ -2,32 +2,99 @@
 	padding: 0;
 	margin: 0
 }
-.main {
-	background: linear-gradient(to bottom, #e73131, #fc668a, #f89fce, #f0d3f5, #ffffff);
-}
-	 
-
-.main h1 {
-	color: blue;
-	font-size: 150px;
+.body {
+	background-image: linear-gradient(to bottom, #de6262, #e67568, #ee8870, #f59a7a, #fbac86);
 	text-align: center;
-	padding: 1px;
+	
+	
 }
-.main h2 {
-	color: blue;
-	font-size: 150px;
-	text-align: center;
-	margin-top: -345px;
-	opacity: 0;
+.head .manu {
+	padding-left: px;
+	
+}
+.head .manu li {
+	list-style: none;
+	float: left;
+	padding-left: 22px;
+	padding-top: 80px;
+	
+}
+.head .manu li a {
+	letter-spacing: 2px;
+	padding-left: 19px;
+    padding-right: 18px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: "muli Black";
+}
+.head .manu li a:hover {
+	padding-bottom: 1px;
+    border-bottom: 2px solid #fbac86;
+}
+.head .manu h1 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #f54646;
+	padding: 18px;
+	background-color:#fff;
+	border-radius: 100px;
+	margin-top: -20px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.body2 {
+	margin-top: 100px;
+	text-align: center;	
+}
+.body2 .spot {
+	margin-left: 300px;;
+	width: fit-content;
 
+}
+.body2 h1 {
+	color: #fff;
+	font-size: 120px;
+}
 
-	}
-.main:hover h1{
+.body2 h2 {
+	color: #fff;
+	font-size: 120px;
+	margin-top: -152px;
 	opacity: 0;
-	transition: all 2s ease-in-out;
+}
+.body2 .spot:hover h1{
+	opacity: 0;
+	transition: all 1s ;
 		
 	}
-.main:hover h2{
+.body2 .spot:hover h2{
 	opacity: 1;
-	transition: all 2s ease-in-out;
+	transition: all 3s ;
+}
+.footer {
+	margin-top: 200px;
+	color: #fff;
+	margin-bottom: 100px;
+	font-family: "muli Black";
+}
+.footer .fmanu li {
+	float: left;
+	list-style: none;
+	
+	
+}
+.fmanu {
+	padding-left: 325px;
+
+
+}
+.footer .fmanu a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 50px;
+}
+.footer .fmanu .bar {
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
 }
