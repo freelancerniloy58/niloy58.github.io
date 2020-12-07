@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0
+}
+.main {
+	background: linear-gradient(to bottom, #e73131, #fc668a, #f89fce, #f0d3f5, #ffffff);
+}
+	 
+
+.main h1 {
+	color: blue;
+	font-size: 150px;
+	text-align: center;
+	padding: 1px;
+}
+.main h2 {
+	color: blue;
+	font-size: 150px;
+	text-align: center;
+	margin-top: -345px;
+	opacity: 0;
+
+
+	}
+.main:hover h1{
+	opacity: 0;
+	transition: all 2s ease-in-out;
+		
+	}
+.main:hover h2{
+	opacity: 1;
+	transition: all 2s ease-in-out;
+}
